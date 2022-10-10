@@ -12,6 +12,6 @@ trap "echo 'Y U no love me?!'" SIGINT
 trap "m -rf /var/run/myscript.pid; exit" SIGQUIT
 while true
 do
-wcho "To infinity and beyond"
-sleep 2
-do
+	echo "To infinity and beyond"
+	sleep 2
+done
